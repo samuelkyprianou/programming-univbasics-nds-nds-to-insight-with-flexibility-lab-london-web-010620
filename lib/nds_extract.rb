@@ -57,6 +57,10 @@ new_array
 end
 
 def gross_per_studio(source)
+  gross_hash = {}
+  d = 0
+  while d < source.length do
+    
 
 end
 
