@@ -60,8 +60,9 @@ def gross_per_studio(source)
   gross_hash = {}
   d = 0
   while d < source.length do
-    
-
+    d += 1
+    binding.pry
+end
 end
 
 # ----------------    End of Your Code Region --------------------
