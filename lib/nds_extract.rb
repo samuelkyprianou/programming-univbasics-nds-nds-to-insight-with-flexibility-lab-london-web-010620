@@ -65,10 +65,9 @@ def gross_per_studio(source)
     if gross_hash[studio]
       gross_hash[studio] += worldwide_gross
     else
-      
-      
+      gross_hash[studio] + worldwide_gross
+    end
     d += 1
-    binding.pry
 end
 end
 
