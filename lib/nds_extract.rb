@@ -63,7 +63,9 @@ def gross_per_studio(source)
     studio = source[d][:studio]
     worldwide_gross = source[d][:worldwide_gross]
     if gross_hash[studio]
-      gross_hash[studio]
+      gross_hash[studio] += worldwide_gross
+    else
+      
       
     d += 1
     binding.pry
