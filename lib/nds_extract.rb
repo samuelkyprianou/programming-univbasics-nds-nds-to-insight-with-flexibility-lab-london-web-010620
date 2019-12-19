@@ -60,6 +60,9 @@ def gross_per_studio(source)
   gross_hash = {}
   d = 0
   while d < source.length do
+    studio = source[d][:studio]
+    worldwide_gross = source[d][:worldwide_gross]
+    if gross_hash = studio
     d += 1
     binding.pry
 end
